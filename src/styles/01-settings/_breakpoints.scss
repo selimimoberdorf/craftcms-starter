@@ -1,0 +1,15 @@
+/* 
+ * settings/breakpoints
+ ? global breakpoints used by include-media, more info see below
+ ! dependency: https://github.com/eduardoboucas/include-media
+*/
+
+$breakpoints: (
+  "xs": 360px,
+  "s": 480px,
+  "sm": 560px,
+  "m": 768px,
+  "ml": 960px,
+  "l": 1180px,
+  "xl": 1440px
+);

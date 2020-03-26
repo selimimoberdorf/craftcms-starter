@@ -1,0 +1,10 @@
+/* 
+ * tools/center
+ ? little helper to center any html node
+*/
+
+@mixin center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}

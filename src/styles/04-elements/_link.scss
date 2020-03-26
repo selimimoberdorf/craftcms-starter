@@ -1,0 +1,30 @@
+/* 
+ * elements/link
+ ? default styling for link
+*/
+
+a,
+a:active,
+a:focus,
+a:hover {
+  outline: none;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+
+  /* removes underline for link with classes */
+  &:not([class]) {
+    text-decoration: underline;
+  }
+}
+
+a {
+  color: $clr-black;
+  text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: lighten($clr-black, $amount: 4);
+  text-decoration: none;
+}

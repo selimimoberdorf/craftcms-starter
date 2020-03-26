@@ -1,0 +1,10 @@
+/* 
+ * elements/paragraph
+ ? default styling for link
+*/
+
+p {
+  @include f(14px, 16px);
+  margin-top: 0;
+  margin-bottom: 0;
+}

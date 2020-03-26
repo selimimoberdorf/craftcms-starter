@@ -1,0 +1,27 @@
+/* 
+ * object/layout-fullpage
+ ? full height layout
+ todo: detailed explanation
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+.layout-fullpage {
+  $root: &;
+
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+
+  &__header,
+  &__footer {
+    flex: 0 1 auto;
+  }
+
+  &__content {
+    flex: 1 1 auto;
+  }
+}

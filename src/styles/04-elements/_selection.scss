@@ -1,0 +1,10 @@
+/* 
+ * elements/selection
+ ? default styling for selection
+*/
+
+::selection {
+  background-color: $clr-black;
+  color: $clr-white;
+  text-shadow: none;
+}

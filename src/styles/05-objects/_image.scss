@@ -1,0 +1,14 @@
+/* 
+ * objects/image
+ ? object for an default block image with ratio wrapper
+ todo: detailed explanation
+*/
+
+.image {
+  $root: &;
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+}

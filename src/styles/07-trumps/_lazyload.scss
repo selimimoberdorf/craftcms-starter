@@ -1,0 +1,15 @@
+/* 
+ * trumps/lazyload
+ ? definition for lazyload states
+ ! dependency: https://github.com/verlok/lazyload
+*/
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity ease-in-out 300ms;
+}

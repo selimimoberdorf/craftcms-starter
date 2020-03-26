@@ -1,0 +1,22 @@
+/* 
+ * tools/ratio
+ ? little helper for keeping the ratio right (e.g. images)
+*/
+@mixin ratio($width, $height) {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

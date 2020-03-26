@@ -1,0 +1,12 @@
+/* 
+ * tools/clearfix
+ ? the name should it say what it does
+*/
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}

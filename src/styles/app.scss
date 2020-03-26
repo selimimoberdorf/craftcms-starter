@@ -1,0 +1,63 @@
+//  --------------------------------------------------------
+//  Application Loader
+//  --------------------------------------------------------
+
+/* 
+ * app
+ ? root scss file which collects all application stylings here
+ ! Don't remove this file
+ *
+ * Index
+ * 01 settings
+ * 02 tools
+ * 03 generic
+ * 04 elements
+ * 05 objects
+ * 06 components
+ * 07 trumps
+ ? What is this structure? ITCSS! 👉🏼 https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+*/
+
+// 01 settings
+// ? used with preprocessors and contain font, colors definitions, etc.
+@import "01-settings/breakpoints";
+@import "01-settings/colors";
+@import "01-settings/font";
+@import "01-settings/layout";
+
+// 02 tools
+// ?  globally used mixins and functions
+@import "../../node_modules/include-media/dist/include-media";
+@import "02-tools/center";
+@import "02-tools/clearfix";
+@import "02-tools/fluid";
+@import "02-tools/visually-hidden";
+@import "02-tools/ratio";
+
+// 03 generic
+// ? reset and/or normalize styles
+@import "03-generic/normalize";
+@import "03-generic/reset";
+
+// 04 elements
+// ? styling for bare HTML elements (like H1, A, etc.)
+@import "04-elements/font";
+@import "04-elements/headings";
+@import "04-elements/link";
+@import "04-elements/lists";
+@import "04-elements/media";
+@import "04-elements/paragraph";
+@import "04-elements/selection";
+
+// 05 objects
+// ? class-based selectors which define undecorated design patterns
+@import "05-objects/image";
+@import "05-objects/layout-fullpage";
+
+// 06 components
+// ? specific UI components
+@import "06-components/new";
+
+// 07 trumps
+// ? utilities and helper classes with ability to override anything
+@import "07-trumps/lazyload";

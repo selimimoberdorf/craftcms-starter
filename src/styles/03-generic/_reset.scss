@@ -1,0 +1,16 @@
+/* 
+ * generic/reset
+ ? selfmade resets which are best practice
+ TODO: find the link to the article about this best practice usage
+ ! dependency:
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

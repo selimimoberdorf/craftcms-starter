@@ -1,0 +1,57 @@
+/* 
+ * tools/fluid
+ ? fluid mixin which can be used for any spacing (e.g. typo, padding, margin, height etc.)
+ ? What is this technic? Fluid type! https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+ ! howto use
+ * single property for font
+ html {
+  @include fluid(14px, 18px);
+ }
+ *
+ * single property for padding
+ div {
+  @include fluid(14px, 18px, padding);
+ }
+ *
+ * multiple properties
+ div {
+  @include fluid(14px, 18px, padding, margin);
+ }
+*/
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+@mixin fluid(
+  $min-value,
+  $max-value,
+  $properties: font-size,
+  $min-vw: $app-width-min,
+  $max-vw: $app-width-max
+) {
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
+
+  @media screen and (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(
+        #{$min-value} +
+          #{strip-unit($max-value - $min-value)} *
+          (100vw - #{$min-vw}) /
+          (#{strip-unit($max-vw - $min-vw)})
+      );
+    }
+  }
+
+  @media screen and (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
+}
+
+// Shorthand Version
+@mixin f($args...) {
+  @include fluid($args...);
+}
