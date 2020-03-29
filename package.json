@@ -1,7 +1,11 @@
 {
-  "name": "craftcms-blog-twig",
+  "name": "craftcms-starter",
   "version": "1.0.0",
   "description": "Craftcms Starter",
+  "repository": {
+    "type": "git",
+    "url": "git://@github.com:slimiles/craftcms-starter.git"
+  },
   "main": "index.js",
   "keywords": [
     "craftcms"

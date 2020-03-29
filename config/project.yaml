@@ -1,7 +1,7 @@
-dateModified: 1585263163
+dateModified: 1585494871
 email:
   fromEmail: selimob@gmail.com
-  fromName: "Craftcms Starter"
+  fromName: 'Craftcms Starter'
   transportType: craft\mail\transportadapters\Sendmail
 fieldGroups:
   911477c7-3c92-407b-a9a9-e69ccb74eabb:
@@ -11,20 +11,20 @@ fields:
     contentColumnType: text
     fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb
     handle: siteIntroduction
-    instructions: ""
-    name: "Site Introduction"
+    instructions: ''
+    name: 'Site Introduction'
     searchable: true
     settings:
-      availableTransforms: "*"
-      availableVolumes: "*"
+      availableTransforms: '*'
+      availableVolumes: '*'
       cleanupHtml: true
       columnType: text
-      purifierConfig: ""
-      purifyHtml: "1"
-      redactorConfig: ""
-      removeEmptyTags: "1"
-      removeInlineStyles: "1"
-      removeNbsp: "1"
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -32,20 +32,20 @@ fields:
     contentColumnType: text
     fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb
     handle: summary
-    instructions: "Summary for the blog index"
+    instructions: 'Summary for the blog index'
     name: Summary
     searchable: true
     settings:
-      availableTransforms: "*"
-      availableVolumes: ""
+      availableTransforms: '*'
+      availableVolumes: ''
       cleanupHtml: true
       columnType: text
-      purifierConfig: ""
-      purifyHtml: "1"
-      redactorConfig: ""
-      removeEmptyTags: "1"
-      removeInlineStyles: "1"
-      removeNbsp: "1"
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -53,16 +53,16 @@ fields:
     contentColumnType: text
     fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb
     handle: caption
-    instructions: ""
+    instructions: ''
     name: Caption
     searchable: true
     settings:
-      charLimit: ""
-      code: ""
+      charLimit: ''
+      code: ''
       columnType: text
-      initialRows: "4"
-      multiline: ""
-      placeholder: ""
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -70,16 +70,16 @@ fields:
     contentColumnType: text
     fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb
     handle: imageAlt
-    instructions: "Optional text for the `<img>` tag `alt` attribute."
-    name: "Image Alt"
+    instructions: 'Optional text for the `<img>` tag `alt` attribute.'
+    name: 'Image Alt'
     searchable: true
     settings:
-      charLimit: ""
-      code: ""
+      charLimit: ''
+      code: ''
       columnType: text
-      initialRows: "4"
-      multiline: ""
-      placeholder: ""
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -87,13 +87,13 @@ fields:
     contentColumnType: string
     fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb
     handle: bodyContent
-    instructions: ""
-    name: "Body Content"
+    instructions: ''
+    name: 'Body Content'
     searchable: true
     settings:
-      contentTable: "{{%matrixcontent_bodycontent}}"
-      maxBlocks: ""
-      minBlocks: ""
+      contentTable: '{{%matrixcontent_bodycontent}}'
+      maxBlocks: ''
+      minBlocks: ''
       propagationMethod: all
     translationKeyFormat: null
     translationMethod: site
@@ -101,26 +101,27 @@ fields:
 graphql:
   schemas:
     265d76a5-d5a9-4c82-bee4-2f8450aacd0a:
-      isPublic: true
-      name: "Public Schema"
+      isPublic: '1'
+      name: 'Public Schema'
     55cd92b3-363e-4573-ad2c-04650483ba64:
       isPublic: false
       name: Gatsby
       scope:
-        - "sections.5a80053a-6435-4fd2-8a47-53e409d994ad:read"
-        - "entrytypes.dbd1be32-5e0d-4483-92a5-cc47aba67dcc:read"
-        - "sections.db2dff45-19b4-479c-8cba-ab88e7e7d2fd:read"
-        - "entrytypes.bb6d289b-c3cf-4a8d-9324-b98cbd32753b:read"
-        - "sections.4593234a-cdd0-4c54-9931-4eb606b9e7f5:read"
-        - "entrytypes.8518a799-a012-4a6c-aa89-6a347cc00c2e:read"
-        - "volumes.101a70a1-d200-4629-91e5-3425a0937c0e:read"
+        - 'sections.5a80053a-6435-4fd2-8a47-53e409d994ad:read'
+        - 'entrytypes.dbd1be32-5e0d-4483-92a5-cc47aba67dcc:read'
+        - 'sections.db2dff45-19b4-479c-8cba-ab88e7e7d2fd:read'
+        - 'entrytypes.bb6d289b-c3cf-4a8d-9324-b98cbd32753b:read'
+        - 'sections.4593234a-cdd0-4c54-9931-4eb606b9e7f5:read'
+        - 'entrytypes.8518a799-a012-4a6c-aa89-6a347cc00c2e:read'
+        - 'volumes.101a70a1-d200-4629-91e5-3425a0937c0e:read'
 matrixBlockTypes:
   0c98f9b9-84bf-4766-af63-a3568b46c0a6:
     field: e567b6ab-3855-452b-a337-4c119dac4d62
     fieldLayouts:
       59ffc94b-a1a3-4ecb-98e4-67dbd4317f23:
         tabs:
-          - fields:
+          -
+            fields:
               df3a27ff-e318-422f-8ff5-d626eda8ce54:
                 required: false
                 sortOrder: 1
@@ -131,32 +132,33 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: richText
-        instructions: ""
-        name: "Rich Text"
+        instructions: ''
+        name: 'Rich Text'
         searchable: true
         settings:
-          availableTransforms: "*"
-          availableVolumes: "*"
+          availableTransforms: '*'
+          availableVolumes: '*'
           cleanupHtml: true
           columnType: text
-          purifierConfig: ""
-          purifyHtml: "1"
+          purifierConfig: ''
+          purifyHtml: '1'
           redactorConfig: Standard.json
-          removeEmptyTags: "1"
-          removeInlineStyles: "1"
-          removeNbsp: "1"
+          removeEmptyTags: '1'
+          removeInlineStyles: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
     handle: richText
-    name: "Rich Text"
+    name: 'Rich Text'
     sortOrder: 1
   28d5c036-8cb0-4a14-b553-0167ee34efbe:
     field: e567b6ab-3855-452b-a337-4c119dac4d62
     fieldLayouts:
       d0baa120-b528-4317-a11e-0a36f80501c3:
         tabs:
-          - fields:
+          -
+            fields:
               5d2372e2-c220-4af4-80c9-49bb8c85a92e:
                 required: false
                 sortOrder: 2
@@ -170,22 +172,26 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: position
-        instructions: ""
+        instructions: ''
         name: Position
         searchable: true
         settings:
           optgroups: true
           options:
-            - default: "1"
+            -
+              default: '1'
               label: Wide
               value: wide
-            - default: ""
+            -
+              default: ''
               label: Center
               value: center
-            - default: ""
+            -
+              default: ''
               label: Left
               value: left
-            - default: ""
+            -
+              default: ''
               label: Right
               value: right
         translationKeyFormat: null
@@ -195,25 +201,25 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: image
-        instructions: "Double-click the image thumbnail to apply a caption to an image."
+        instructions: 'Double-click the image thumbnail to apply a caption to an image.'
         name: Image
         searchable: true
         settings:
           allowedKinds:
             - image
-          defaultUploadLocationSource: "volume:101a70a1-d200-4629-91e5-3425a0937c0e"
+          defaultUploadLocationSource: 'volume:101a70a1-d200-4629-91e5-3425a0937c0e'
           defaultUploadLocationSubpath: images
-          limit: "1"
+          limit: '1'
           localizeRelations: false
-          restrictFiles: "1"
-          selectionLabel: "Add an image"
-          singleUploadLocationSource: "volume:101a70a1-d200-4629-91e5-3425a0937c0e"
-          singleUploadLocationSubpath: ""
+          restrictFiles: '1'
+          selectionLabel: 'Add an image'
+          singleUploadLocationSource: 'volume:101a70a1-d200-4629-91e5-3425a0937c0e'
+          singleUploadLocationSubpath: ''
           source: null
-          sources: "*"
+          sources: '*'
           targetSiteId: null
-          useSingleFolder: ""
-          validateRelatedElements: ""
+          useSingleFolder: ''
+          validateRelatedElements: ''
           viewMode: large
         translationKeyFormat: null
         translationMethod: site
@@ -226,7 +232,8 @@ matrixBlockTypes:
     fieldLayouts:
       a3b39778-708a-4de0-9501-6b1d37108919:
         tabs:
-          - fields:
+          -
+            fields:
               2f6bf496-df01-42e0-9b77-a764f886813d:
                 required: false
                 sortOrder: 2
@@ -240,21 +247,24 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: aspectRatio
-        instructions: ""
-        name: "Aspect Ratio"
+        instructions: ''
+        name: 'Aspect Ratio'
         searchable: true
         settings:
           optgroups: true
           options:
-            - default: "1"
-              label: "16:9"
-              value: "16:9"
-            - default: ""
-              label: "4:3"
-              value: "4:3"
-            - default: ""
-              label: "3:2"
-              value: "3:2"
+            -
+              default: '1'
+              label: '16:9'
+              value: '16:9'
+            -
+              default: ''
+              label: '4:3'
+              value: '4:3'
+            -
+              default: ''
+              label: '3:2'
+              value: '3:2'
         translationKeyFormat: null
         translationMethod: none
         type: craft\fields\Dropdown
@@ -262,38 +272,39 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: images
-        instructions: "Double-click an image thumbnail to apply a caption to an image."
+        instructions: 'Double-click an image thumbnail to apply a caption to an image.'
         name: Images
         searchable: true
         settings:
           allowedKinds:
             - image
-          defaultUploadLocationSource: "volume:101a70a1-d200-4629-91e5-3425a0937c0e"
+          defaultUploadLocationSource: 'volume:101a70a1-d200-4629-91e5-3425a0937c0e'
           defaultUploadLocationSubpath: images
-          limit: ""
+          limit: ''
           localizeRelations: false
-          restrictFiles: "1"
-          selectionLabel: "Add an image"
-          singleUploadLocationSource: "volume:101a70a1-d200-4629-91e5-3425a0937c0e"
-          singleUploadLocationSubpath: ""
+          restrictFiles: '1'
+          selectionLabel: 'Add an image'
+          singleUploadLocationSource: 'volume:101a70a1-d200-4629-91e5-3425a0937c0e'
+          singleUploadLocationSubpath: ''
           source: null
-          sources: "*"
+          sources: '*'
           targetSiteId: null
-          useSingleFolder: ""
-          validateRelatedElements: ""
+          useSingleFolder: ''
+          validateRelatedElements: ''
           viewMode: large
         translationKeyFormat: null
         translationMethod: site
         type: craft\fields\Assets
     handle: imageCarousel
-    name: "Image Carousel"
+    name: 'Image Carousel'
     sortOrder: 4
   a121b8e6-70e6-421b-9629-c664d2949934:
     field: e567b6ab-3855-452b-a337-4c119dac4d62
     fieldLayouts:
       e25f5116-982d-45a0-ac12-9d3a3f1d07e7:
         tabs:
-          - fields:
+          -
+            fields:
               09c265f3-2ab1-405d-9111-108e6b54f0fb:
                 required: false
                 sortOrder: 2
@@ -310,20 +321,20 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: quote
-        instructions: ""
+        instructions: ''
         name: Quote
         searchable: true
         settings:
-          availableTransforms: "*"
-          availableVolumes: "*"
+          availableTransforms: '*'
+          availableVolumes: '*'
           cleanupHtml: true
           columnType: text
-          purifierConfig: ""
-          purifyHtml: "1"
+          purifierConfig: ''
+          purifyHtml: '1'
           redactorConfig: Simple.json
-          removeEmptyTags: "1"
-          removeInlineStyles: "1"
-          removeNbsp: "1"
+          removeEmptyTags: '1'
+          removeInlineStyles: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -331,16 +342,16 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: attribution
-        instructions: ""
+        instructions: ''
         name: Attribution
         searchable: true
         settings:
-          charLimit: ""
-          code: ""
+          charLimit: ''
+          code: ''
           columnType: text
-          initialRows: "4"
-          multiline: ""
-          placeholder: ""
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
         translationKeyFormat: null
         translationMethod: none
         type: craft\fields\PlainText
@@ -348,16 +359,18 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: style
-        instructions: ""
+        instructions: ''
         name: Style
         searchable: true
         settings:
           optgroups: true
           options:
-            - default: "1"
+            -
+              default: '1'
               label: Blockquote
               value: blockquote
-            - default: ""
+            -
+              default: ''
               label: Pullquote
               value: pullquote
         translationKeyFormat: null
@@ -371,7 +384,8 @@ matrixBlockTypes:
     fieldLayouts:
       edfa3f3b-4e3a-4aa8-959c-95de3a10409d:
         tabs:
-          - fields:
+          -
+            fields:
               e8fdd2ad-6739-4bab-a689-8a422e18a8f4:
                 required: true
                 sortOrder: 1
@@ -382,11 +396,11 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: embed
-        instructions: ""
+        instructions: ''
         name: Embed
         searchable: false
         settings:
-          url: ""
+          url: ''
         translationKeyFormat: null
         translationMethod: none
         type: wrav\oembed\fields\OembedField
@@ -403,7 +417,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.1
     settings:
-      enableCache: "1"
+      enableCache: '1'
   redactor:
     edition: standard
     enabled: true
@@ -420,7 +434,8 @@ sections:
         fieldLayouts:
           434b8bff-3f8f-4c04-b4e1-43001b019d73:
             tabs:
-              - fields:
+              -
+                fields:
                   031e8547-9981-4367-ad27-178240517ea1:
                     required: false
                     sortOrder: 1
@@ -430,13 +445,14 @@ sections:
         hasTitleField: false
         name: Home
         sortOrder: 1
-        titleFormat: "{section.name|raw}"
-        titleLabel: ""
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
     handle: home
     name: Home
     previewTargets:
-      - label: "Primary entry page"
-        urlFormat: "{url}"
+      -
+        label: 'Primary entry page'
+        urlFormat: '{url}'
     propagationMethod: all
     siteSettings:
       f3400d6f-0f33-4cef-9521-f8f6620399ec:
@@ -452,7 +468,8 @@ sections:
         fieldLayouts:
           0476a59c-d8e9-40fd-bce3-4ba321daf851:
             tabs:
-              - fields:
+              -
+                fields:
                   e567b6ab-3855-452b-a337-4c119dac4d62:
                     required: false
                     sortOrder: 1
@@ -462,13 +479,14 @@ sections:
         hasTitleField: false
         name: About
         sortOrder: 1
-        titleFormat: "{section.name|raw}"
-        titleLabel: ""
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
     handle: about
     name: About
     previewTargets:
-      - label: "Primary entry page"
-        urlFormat: "{url}"
+      -
+        label: 'Primary entry page'
+        urlFormat: '{url}'
     propagationMethod: all
     siteSettings:
       f3400d6f-0f33-4cef-9521-f8f6620399ec:
@@ -484,7 +502,8 @@ sections:
         fieldLayouts:
           abfbb4c4-848b-4bbb-a8ab-fa5edb8941b6:
             tabs:
-              - fields:
+              -
+                fields:
                   5e76b2e3-1eae-4bbc-93f4-122fe4526b02:
                     required: false
                     sortOrder: 1
@@ -497,44 +516,45 @@ sections:
         hasTitleField: true
         name: Blog
         sortOrder: 1
-        titleFormat: ""
+        titleFormat: ''
         titleLabel: Title
     handle: blog
     name: Blog
     previewTargets:
-      - label: "Primary entry page"
-        urlFormat: "{url}"
+      -
+        label: 'Primary entry page'
+        urlFormat: '{url}'
     propagationMethod: all
     siteSettings:
       f3400d6f-0f33-4cef-9521-f8f6620399ec:
         enabledByDefault: true
         hasUrls: true
         template: _private/blog-entry
-        uriFormat: "blog/{slug}"
+        uriFormat: 'blog/{slug}'
     type: channel
 siteGroups:
   90dee5cc-23f1-40ac-ae14-3fa71bebc4dc:
-    name: "Craftcms Starter"
+    name: 'Craftcms Starter'
 sites:
   f3400d6f-0f33-4cef-9521-f8f6620399ec:
     baseUrl: $DEFAULT_SITE_URL
     handle: default
     hasUrls: true
     language: en-US
-    name: "Craftcms Starter"
+    name: 'Craftcms Starter'
     primary: true
     siteGroup: 90dee5cc-23f1-40ac-ae14-3fa71bebc4dc
     sortOrder: 1
 system:
   edition: pro
   live: true
-  name: "Craft Blog"
+  name: 'Craftcms Starter'
   schemaVersion: 3.4.10
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Zurich
 users:
   allowPublicRegistration: false
   defaultGroup: null
-  photoSubpath: ""
+  photoSubpath: ''
   photoVolumeUid: null
   requireEmailVerification: true
 volumes:
@@ -542,7 +562,8 @@ volumes:
     fieldLayouts:
       f6203211-ad03-49ec-8423-3d215898f508:
         tabs:
-          - fields:
+          -
+            fields:
               cdd377e5-a451-46b0-ae80-bc4cee907d3e:
                 required: false
                 sortOrder: 1
@@ -555,7 +576,7 @@ volumes:
     hasUrls: true
     name: Uploads
     settings:
-      path: "@webroot/uploads"
+      path: '@webroot/uploads'
     sortOrder: 1
     type: craft\volumes\Local
-    url: "@web/uploads"
+    url: '@web/uploads'
