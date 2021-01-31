@@ -1,0 +1,18 @@
+dateModified: 1612055895
+email:
+  fromEmail: selimob@gmail.com
+  fromName: craftcms-starter
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: pro
+  live: true
+  name: craftcms-starter
+  retryDuration: null
+  schemaVersion: 3.6.1
+  timeZone: Europe/Zurich
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
