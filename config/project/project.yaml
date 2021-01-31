@@ -1,8 +1,13 @@
-dateModified: 1612055895
+dateModified: 1612056298
 email:
   fromEmail: selimob@gmail.com
   fromName: craftcms-starter
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true

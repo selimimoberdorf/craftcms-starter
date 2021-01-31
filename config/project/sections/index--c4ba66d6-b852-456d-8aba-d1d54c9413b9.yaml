@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: index
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  506c1202-a290-4c10-99b9-0861f65d04ed:
+    enabledByDefault: true
+    hasUrls: true
+    template: _private/home
+    uriFormat: __home__
+type: single
